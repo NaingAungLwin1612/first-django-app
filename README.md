@@ -42,4 +42,4 @@
 
 ## Testing
 
-`py mange.py test polls`
+`py manage.py test polls`
