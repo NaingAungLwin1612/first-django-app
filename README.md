@@ -8,6 +8,10 @@
 
 `.tutorial-env\Scripts\activate`
 
+## Install dependencies
+
+`python -m pip install -r requirements.txt`
+
 ## Change dir to ./mysite
 
 `cd mysite`
