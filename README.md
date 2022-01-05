@@ -14,7 +14,7 @@
 
 ## Change dir to ./mysite
 
-`cd mysite`
+`cd django-app`
 
 ## Migrate database
 
@@ -39,3 +39,7 @@
 ### Poll app
 
 [/polls/](http://localhost:8000/polls/)
+
+## Testing
+
+`py mange.py test polls`

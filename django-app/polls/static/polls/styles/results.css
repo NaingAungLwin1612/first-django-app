@@ -1,0 +1,24 @@
+.result-container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: white url("../images/background.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.result-block {
+  display: block;
+  margin: 0 auto;
+}
+.result-header {
+  text-align: center;
+  color: #4071da;
+}
+.vote-list {
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.detail-link {
+  padding: 20px;
+}

@@ -1,0 +1,20 @@
+.header {
+  color: #4071da;
+  text-align: center;
+}
+.error {
+  color: #ff0000;
+}
+.choose-text {
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.vote-btn {
+  margin: 30px;
+  background-color: #1bd41b;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/styles/results.css' %}" />
+
+<div class="result-container">
+  <div class="result-block">
+    <h1 class="result-header">{{ question.question_text }}</h1>
+    <ul>
+      {% for choice in question.choice_set.all %}
+      <li class="vote-list">
+        {{ choice.choice_text }} = {{ choice.votes }} vote{{ choice.votes|pluralize}}
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="detail-link" href="{% url 'polls:detail' question.id %}">Vote again?</a>
+  </div>
+</div>

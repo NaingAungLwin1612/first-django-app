@@ -1,0 +1,16 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+.container{
+  background: white url("../images/background.png") no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.question {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
