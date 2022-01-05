@@ -12,10 +12,6 @@
 
 `python -m pip install -r requirements.txt`
 
-## Change dir to ./mysite
-
-`cd django-app`
-
 ## Migrate database
 
 `python manage.py makemigrations`
